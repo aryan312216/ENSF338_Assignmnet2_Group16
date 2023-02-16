@@ -36,7 +36,7 @@ def func2(array, start, end):
     return high
 
 def main():
-    file = open("ex2DataSet.json", "r")
+    file = open("question2.json", "r")
     contents = json.load(file)
     inputSize = []
     timing = []
